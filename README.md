@@ -1,2 +1,24 @@
 # Site-Receitas-ex-
-Site Simples utilizando de ferramentas do bootstrap para desenvolver um site de receitas
+Esse é um modelo simples de um site de receitas fictício, utilizo como referência para demonstrar minha utilização de diversas tecnologias do desenvolvimento Web.
+Nesse Projeto utilizei do HTML5, CSS3, Bootstrap, Javascript, PHP e mySQL
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Fico disponível para contratação em requisitos de desenvolvimento web, meu contato segue 
+tiilas777@gmail.com
+www.linkedin.com/in/luiseduardoti
