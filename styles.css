@@ -76,6 +76,13 @@ a {
     height: 50px;
 }
 
+#deliver {
+    margin-top: 100px;
+    background-color: #732C02;
+    color: #fff;
+    height: 50px;
+}
+
 footer {
     background-color: #732C02;
     margin-top: 50px;

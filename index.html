@@ -83,91 +83,101 @@
             </div>
         </div>
     </div>
-    <h2></h2>
-    <form class="row g-3 needs-validation" method="POST" action="request.php" novalidate>
-    <div class="col-md-4">
-        <label for="validationCustom01" class="form-label">First name</label>
-        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-        <div class="valid-feedback">
-        Looks good!
+    <h2 id="deliver">Encomende Agora Mesmo !</h2>
+    <form class="row g-3 needs-validation"  novalidate>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label" >Nome</label>
+            <input type="text" class="form-control" id="validationCustom01" name="nome"required>
+            <div class="valid-feedback">
+                Excelente!
+            </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <label for="validationCustom02" class="form-label">Last name</label>
-        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-        <div class="valid-feedback">
-        Looks good!
+        <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" id="validationCustom02" name="sobrenome" required>
+            <div class="valid-feedback">
+                Lindo!
+            </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <label for="validationCustomUsername" class="form-label">Username</label>
-        <div class="input-group has-validation">
-        <span class="input-group-text" id="inputGroupPrepend">@</span>
-        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-        <div class="invalid-feedback">
-            Please choose a username.
+        <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Vulgo</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" name="vulgo"class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                    Escolha um vulgo válido
+                </div>
+            </div>
         </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" name="estado" class="form-label">Estado</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Insira Goiás
+            </div>
         </div>
-    </div>
-    <div class="col-md-6">
-        <label for="validationCustom03" class="form-label">City</label>
-        <input type="text" class="form-control" id="validationCustom03" required>
-        <div class="invalid-feedback">
-        Please provide a valid city.
+        <div class="col-md-3">
+            <label for="validationCustom04" name="municipio" class="form-label">Município</label>
+            <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Escolha sabiamente</option>
+                <option>Águas Lindas de Goiás</option>
+                <option>Araçu</option>
+                <option>Caldas Novas</option>
+                <option>Castelândia</option>
+                <option>Cidade Ocidental</option>
+                <option>Jussara</option>
+                <option>Panamá</option>
+                <option>Sanclerlândia</option>
+                <option>Três Ranchos</option>
+                <option>Vila Propício</option>
+            </select>
+            <div class="invalid-feedback">
+                Selecione um munucípio válido
+            </div>
         </div>
-    </div>
-    <div class="col-md-3">
-        <label for="validationCustom04" class="form-label">State</label>
-        <select class="form-select" id="validationCustom04" required>
-        <option selected disabled value="">Choose...</option>
-        <option>...</option>
-        </select>
-        <div class="invalid-feedback">
-        Please select a valid state.
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Cep</label>
+            <input type="text" class="form-control" id="validationCustom05" name= "cep" required>
+            <div class="invalid-feedback">
+                Insira um endereço válido
+            </div>
         </div>
-    </div>
-    <div class="col-md-3">
-        <label for="validationCustom05" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="validationCustom05" required>
-        <div class="invalid-feedback">
-        Please provide a valid zip.
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" name="notificacao" required>
+                <label class="form-check-label" for="invalidCheck">
+                    Aceito que a vovó me mande notificações por email
+                </label>
+                <div class="invalid-feedback">
+                    Você deve concordar
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="col-12">
-        <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-        <label class="form-check-label" for="invalidCheck">
-            Aceito que a vovó me mande notificações por email
-        </label>
-        <div class="invalid-feedback">
-            You must agree before submitting.
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar !</button>
         </div>
-        </div>
-    </div>
-    <div class="col-12">
-        <button class="btn btn-primary" type="submit">Enviar !</button>
-    </div>
     </form>
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col">
                     <p>© 2025 Adenora – Receitas da Vovó<br>
-                    Desenvolvido por <a href="https://www.linkedin.com/in/luiseduardoti/">SilasDev</a><br>
-                    Todos os direitos reservados.</p>
-                </div>
-                <div class="col">
-                    <p>
-                    📍 Goiânia<br>
-                    📞 (62) 99999-9999<br>
-                    ✉️ adenora.receitas@email.com
+                        Desenvolvido por <a href="https://www.linkedin.com/in/luiseduardoti/">SilasDev</a><br>
+                        Todos os direitos reservados.
                     </p>
                 </div>
                 <div class="col">
                     <p>
-                    <a href="#biography">Sobre a Vovó</a><br>
-                    <a href="#gallery">Catálogo</a><br>
-                    <a href="request.html">Encomende Agora</a><br>
+                        📍 Goiânia<br>
+                        📞 (62) 99999-9999<br>
+                        ✉️ adenora.receitas@email.com
+                    </p>
+                </div>
+                <div class="col">
+                    <p>
+                        <a href="#biography">Sobre a Vovó</a><br>
+                        <a href="#gallery">Catálogo</a><br>
+                        <a href="#deliver">Encomende Agora</a><br>
                     </p>
                 </div>
             </div>
